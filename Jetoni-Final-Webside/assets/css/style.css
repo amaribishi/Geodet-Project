@@ -1,0 +1,532 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+    background-image: url(../Images/Bg-4.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color:purple;
+    color: rgb(255, 255, 255);
+}
+
+ul li.active a{
+    background-color:purple;
+    color: rgb(255, 255, 255);
+}
+
+  .logo img{
+      float: left;
+      width: 150px;
+      height: auto;
+  }
+
+  .main{
+      max-width: 1200px;
+      margin: auto;
+  }
+
+  .title{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  .title h1{
+      color: rgb(255, 115, 0);
+      font-size: 60px;
+  }
+
+  .buttoni{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+  }
+
+  .btn{
+      border: 1px solid purple;
+      padding: 10px 30px;
+      color: rgb(252, 134, 0);
+      text-decoration: none;
+      transform: 0.6s ease;
+  }
+
+  .btn:hover{
+    background-color:purple;
+    color: rgb(255, 255, 255);
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500;1,600&display=swap');
+  *{
+      margin:0px;
+      padding: 0px;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+  }
+  .spection{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100vh;
+      background-color: #eee;
+
+  }
+  .cards{
+      width: 100%;
+      display: flex;
+      margin: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+  }
+
+  .cards .card {
+      margin: 15px;
+  }
+
+  .cards .card {
+    display: none;
+}
+
+
+.cards.show-more .card {
+    display: flex;
+}
+
+
+  .cards .new-arrival{
+      width: 100%;
+      margin: 20px;
+  }
+  .cards .new-arrival h1{
+      text-align: center;
+      font-size: 50px;
+      color: #222;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 1px;
+  }
+  .cards .new-arrival h1::after{
+      content: "";
+      height: 5px;
+      width: 325px;
+      background-color: #222;
+      border-radius: 5px;
+      display: block;
+      margin: auto;
+  } 
+
+  .btnPr{
+    border: 1px solid purple;
+    padding: 10px 30px;
+    color: rgb(252, 134, 0);
+    text-decoration: none;
+    transform: 0.6s ease;
+}
+
+.btnPr:hover{
+  background-color:purple;
+  color: rgb(255, 255, 255);
+}
+
+  .card{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      box-shadow: 0px 2px 4px rgb(0,0,0,25%);
+  }
+  .image-section{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .image-section img{
+      width: 100%;
+      height: auto;
+  }
+  .description{
+      text-align: center;
+      margin-top: 20px;
+  }
+  .description h1{
+      font-size: 20px;
+      text-transform: uppercase;
+      color: #222;
+      letter-spacing: 2px;
+      margin-top: 10px;
+  }
+  .description p{
+      font-size: 17px;
+      letter-spacing: 1.5px;
+      margin-top: 10px;
+  }
+  .description span{
+      margin-left: 8px; 
+  }
+  .description del{
+      margin-left: 7px;
+      font-size: 15px;
+      color: red;
+  }
+  .button-group{
+      margin-top: 30px;
+  }
+  .button-group .buy{
+      background-color: orangered;
+      font-size: 14px;
+      padding: 8px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      letter-spacing: 1px;
+      color: blue;
+  }
+  .button-group .buy:hover{
+      background-color: #0b348d;
+      transition: 0.6s ease;
+  }
+  .button-group .cart{
+    background-color: #f2533a;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: blue;
+  }
+  .button-group .buy:hover{
+    background-color: #222;
+    transition: 0.6s ease;
+}
+star-icons{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.star-icon i{
+    color:orangered;
+    padding: 0px 3px;
+    font-size: 18px;
+
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+.about-section{
+    background: url(../Images/bg-06.jpg);
+    background-size: 55%;
+    background-color: rgb(194, 192, 190);
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: rgba(4, 143, 153, 0.815);
+    padding: 150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+    
+}
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins ,sans-serif';
+}
+.container{
+    width: 700px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    /* transform: translate(20%, 25%); */
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    font-size: 35px;
+    margin: 15px;
+}
+.name{
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+}
+.name i{
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #bbb;
+}
+.name input{
+    width: 100%;
+    padding: 20px 60px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: #eee;
+    border-radius: 40px;
+}
+.name input::placeholder{
+    color: #bbb;
+    font-weight: 500;
+}
+.email{
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+}
+.email i{
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #bbb;
+}
+.email input{
+    width: 100%;
+    padding: 20px 60px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: #eee;
+    border-radius: 40px;
+}
+.email input::placeholder{
+    color: #bbb;
+    font-weight: 500;
+}
+.message-box{
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+}
+.message-box i{
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #bbb;
+}
+.message-box textarea{
+    width: 100%;
+    padding: 20px 60px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: #eee;
+    border-radius: 40px;
+}
+.message-box textarea::placeholder{
+    color: #bbb;
+    font-weight: 500;
+}
+
+.button{
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.button button{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #806bcd;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.message{
+    width: 100%;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+.message .success{
+    font-size: 20px;
+    color: green;
+    position: absolute;
+    animation: buttons .3s linear;
+    display: none;
+}
+.message .danger{
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    transition: .3s;
+    animation: buttons .3s linear;
+    display: none;
+}
+@keyframes buttons{
+    0%{
+        transform: scale(0.1);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+body{
+    background-image: url(../Images/Bg-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.ajo {
+    width: 100vw;
+    height: 100px !important;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.ajo input {
+    width: 70%;
+    border-radius: 150px;
+    padding: 0px 30px;
+    border: 3px #ffffff solid;
+    background-color: #d3d2d6;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    height: 1em;
+    width: 1em;
+    border-radius: 50em;
+    background: url(https://pro.fontawesome.com/releases/v5.10.0/svgs/solid/times-circle.svg) no-repeat 50% 50%;
+    background-size: contain;
+    opacity: 1;
+  }
+  input[type="search"].dark::-webkit-search-cancel-button {
+    filter: invert(1);
+  }
+  #myUL{
+      display: flex;
+      width: 100vw;
+      height: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 30px;
+  }
+  #myUL a {
+      color: rgb(255, 255, 255);
+      background-color: #c06e10;
+      padding: 10px 15px;
+      border-radius: 100px;
+      transition: all .4s;
+      letter-spacing: 2px;
+      border: 2px solid white;
+  }
+  #myUL li {
+      width: auto;
+  }
